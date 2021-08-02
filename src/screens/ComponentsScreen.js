@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 
 const myName = 'Dmitry';
 
-const HomeScreen = () => {
+const ComponentsScreen = () => {
   return (
     <View>
       <Text style={styles.firstTextElementStyle}>Getting started with React Native!</Text>
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default HomeScreen;
+export default ComponentsScreen;
